@@ -1,0 +1,119 @@
+/* base */
+h4,
+p,
+div,
+ul,
+li,
+input,
+span,
+i {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+/* wrap */
+.Sel_select-wrap {
+  position: relative;
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+}
+
+/* toggle */
+.Sel_select-toggle {
+  height: 36px;
+  border: 1px solid #4b97fb;
+  cursor: pointer;
+  background: #f9f9f9;
+}
+
+.Sel_select-chosen {
+  float: left;
+  padding-top: 10px;
+  text-indent: 5px;
+}
+
+.Sel_select-btn {
+  float: right;
+  width: 60px;
+  height: 36px;
+  line-height: 45px;
+  text-align: center;
+  background: #4b97fb;
+}
+
+.Sel_select-arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 5px solid #fff;
+  border-top-width: 8px;
+  border-color: #fff transparent transparent;
+}
+
+/* dropdown */
+.Sel_select-dropdown {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 9;
+  width: 100%;
+  height: 0;
+  padding-bottom: 10px;
+  background: #fff;
+  border: 1px solid #4b97fb;
+  border-top: none;
+  box-sizing: border-box;
+  transition: all .5s;
+  overflow: auto;
+}
+
+.Sel_search-wrap {
+  padding: 4px;
+}
+
+.Sel_search-bar {
+  width: 100%;
+  height: 28px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 2px;
+  transition: all .3s;
+}
+
+.Sel_search-bar:focus {
+  box-shadow: 0 0 5px 0 rgba(194, 190, 190, 1);
+  transform:
+}
+
+.Sel_list-type {
+  height: 36px;
+  line-height: 36px;
+  padding-top: 10px;
+  padding-left: 4px;
+  font-size: 18px;
+  color: #000;
+}
+
+.Sel_list-item {
+  height: 36px;
+  line-height: 36px;
+  padding-left: 25px;
+}
+
+.Sel_list-item:hover {
+  color: #f9f9f9;
+  background: #4b97fb;
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "type": "构建工具",
+        "name": "Babel",
+        "desc": "Babel - 下一代 JavaScript 语法的编译器"
+    },
+    {
+        "type": "构建工具",
+        "name": "Webpack",
+        "desc": "Webpack - 模块加载和打包神器"
+    },
+    {
+        "type": "构建工具",
+        "name": "Rollup",
+        "desc": "Rollup - JavaScript 模块打包器,可以将小块代码编译成大块复杂的代码"
+    },
+    {
+        "type": "前端框架",
+        "name": "Vue",
+        "desc": "Vue - 一套用于构建用户界面的渐进式框架"
+    },
+    {
+        "type": "前端框架",
+        "name": "Angular",
+        "desc": "Angular - 一款优秀的前端JS框架,已经被用于Google的多款产品当中"
+    },
+    {
+        "type": "前端框架",
+        "name": "React",
+        "desc": "React - 用于构建用户界面的 JavaScript 库,使创建交互式 UI 变得轻而易举"
+    },
+    {
+        "type": "前端框架",
+        "name": "Nerv",
+        "desc": "Nerv - 是一款由京东凹凸实验室打造的类 React 前端框架，基于虚拟 DOM 技术的 JavaScript(TypeScript) 库"
+    },
+    {
+        "type": "必备技能",
+        "name": "Vue",
+        "desc": "Vue - 一套用于构建用户界面的渐进式框架"
+    },
+    {
+        "type": "必备技能",
+        "name": "Webpack",
+        "desc": "Webpack - 模块加载和打包神器"
+    }
+]
