@@ -42,6 +42,7 @@
 	const Select = function (options) {
 
 		this._init(options);
+    
 		Search.call(this, options);
 	};
 
@@ -142,9 +143,9 @@
 			list.Sel_listType = type; // 把列表类型存储在dom上
 
 			list.innerHTML = `<h4 class="Sel_list-type">${type}</h4>
-                                <ul class="Sel_select-list">
-                                    ${this._getDropdownItemByType(type)}
-                                </ul>`;
+                        <ul class="Sel_select-list">
+                            ${this._getDropdownItemByType(type)}
+                        </ul>`;
 			this.dropdown.appendChild(list);
 		});
 
@@ -171,8 +172,8 @@
 						_html = `<h4 class="Sel_list-type">${type}</h4>`;
 						let i = this.allName.findIndex(_name => _name === name);
 						html += `<ul class="Sel_select-list">
-                                        ${this.items[i]}
-                                    </ul>`;
+                        ${this.items[i]}
+                    </ul>`;
 					}
 				});
 				list.innerHTML = _html + html;
