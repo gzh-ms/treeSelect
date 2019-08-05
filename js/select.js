@@ -247,4 +247,5 @@
 	};
 
 	win.$Select = Select;
+  
 })(window, document);
