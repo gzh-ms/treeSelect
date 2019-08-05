@@ -42,7 +42,6 @@
 	const Select = function (options) {
 
 		this._init(options);
-
 		Search.call(this, options);
 	};
 
@@ -107,9 +106,9 @@
 	// 生成开关 param: 
 	Select.prototype._appendToggle = function () {
 		let _html = ` <p class="Sel_select-chosen" id="Sel_select-chosen">未选择</p>
-                            <div class="Sel_select-btn">
-                                <i class="Sel_select-arrow"></i>
-                             </div>`;
+                  <div class="Sel_select-btn">
+                    <i class="Sel_select-arrow"></i>
+                  </div>`;
 
 		let toggle = $$.createEl('div', 'Sel_select-toggle');
 		toggle.innerHTML = _html;
